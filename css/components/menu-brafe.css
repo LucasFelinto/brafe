@@ -1,0 +1,13 @@
+.header-brafe {
+  background: var(--primary-color);
+  padding: var(--spacing-small) 0;
+}
+
+.header-brafe .logo {
+  display: block;
+  float: left;
+}
+
+.header-brafe .navigation {
+  float: left;
+}
