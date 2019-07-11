@@ -1,0 +1,60 @@
+.produtos-brafe {
+  background: var(--first-color);
+  padding: 60px 0;
+  border-top: 3px solid var(--second-color);
+  border-bottom: 3px solid var(--second-color);
+}
+
+.produtos-brafe .produto {
+  width: 18.75rem;
+  float: left;
+  margin: 0 10px 20px 10px;
+}
+
+.produtos-brafe .title::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: currentColor;
+  border-radius: 50%;
+  margin: var(--size-small) auto;
+  border: 5px solid var(--first-color);
+  box-shadow: 0 0 0 5px currentColor;
+}
+
+.produtos-brafe .produto:nth-of-type(1) .title::before {
+  color: var(--b1-color);
+}
+.produtos-brafe .produto:nth-of-type(2) .title::before {
+  color: var(--b2-color);
+}
+.produtos-brafe .produto:nth-of-type(3) .title::before {
+  color: var(--b3-color);
+}
+
+.produtos-brafe .title {
+  text-align: center;
+  font-size: var(--size-large);
+  margin-bottom: 20px;
+}
+
+.produtos-brafe .description {
+  font-size: var(--size-small);
+  line-height: 1.4rem;
+}
+
+.produtos-brafe > .button {
+  color: red;
+  color: var(--primary-color);
+  border: solid 3px;
+  text-decoration: none;
+  display: block;
+  width: 11.25rem;
+  margin: 20px auto 0 auto;
+  font-size: var(--size-medium);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+}
