@@ -1,0 +1,26 @@
+.intro-brafe {
+  background: url("../../img/bg-intro.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 9.375rem 0;
+  text-align: center;
+  color: var(--zero-color);
+}
+
+.intro-brafe > .title {
+  text-transform: uppercase;
+  font-size: var(--size-large);
+}
+
+.intro-brafe > .title::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: var(--zero-color);
+  display: block;
+  margin: var(--size-small) auto;
+}
+
+.intro-brafe > .description {
+  font-style: italic;
+  font-size: var(--size-medium);
+}
